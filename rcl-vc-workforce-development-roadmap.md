@@ -1,5 +1,5 @@
 ---
-title: RCL VC for WOrkforce Development
+title: RCL VC for Workforce Development
 description: The objective of this document is to provide a roadmap for the design and implementation of an online cloud-based platform for RCL Verifiable Credentials for Workforce Development.
 parent: Introduction
 nav_order: 1
@@ -22,7 +22,7 @@ The purpose of the online platform is to facilitate the communication and sharin
 
 # What are RCL Verifiable Credentials
 
-Verifiable Credentials (VCs) are tamper-proof, cryptographically secure digital credentials that can be instantly checked and validated. Standardized by the World Wide Web Consortium (W3C), they act as the digital equivalent of physical documents like education and training qualifications. Unlike static PDF documents, VCs contain built-in cryptographic signatures that allow anyone to verify their authenticity automatically without needing a central database. The RCL Verifiable Credential is a specific implementation of W3C Verifiable Credential standards.
+Verifiable Credentials (VCs) are tamper-proof, cryptographically secure digital credentials that can be instantly checked and validated. Standardized by the World Wide Web Consortium (W3C), they act as the digital equivalent of physical documents such as academic and vocational qualifications. Unlike static PDF documents, VCs contain built-in cryptographic signatures that allow anyone to verify their authenticity automatically without needing a central database. The RCL Verifiable Credential follows the W3C Verifiable Credential standards.
 
 # Pillars of the Online Platform
 
@@ -45,7 +45,7 @@ The authoritative entity  that creates the credential and digitally signs it usi
 - A product owner offering certification for users of its products
 - Licensing or certification bodies regulating workers in an occupational area
 - An industry group or committee ensuring competence of workers in their sector
-- Apprenticeship providers who tracks the competences of apprentices
+- Apprenticeship providers who track the competences of apprentices
 - Any organization developing and tracking the competences of workers
 
 
@@ -86,11 +86,11 @@ Credentials are modular and are issued to holders who demonstrate competence in 
 
 ### Stand-alone
 
-Each credential must be stand-alone. The credential must encompass all the competences to fulfil a job area and should not depend on other credentials to complete the job. For instance, a credential in Database Administration should be sufficient for a Database Administrator to carry out his/her duties. A credential that covers database backups only is insufficient, and the the credential will be deemed incomplete. A credential should ideally cover an entire job area. Credentials that are created from the subdivision of individual job duties  may be deemed insufficient.
+Each credential must be stand-alone. The credential must encompass all the competences to fulfil a job area and should not depend on other credentials to complete the job. For instance, a credential in Database Administration should be sufficient for a Database Administrator to carry out his/her duties. A credential that covers database backups only is insufficient, and the credential will be deemed incomplete. A credential should ideally cover an entire job area. Credentials that are created from the subdivision of individual job duties  may be deemed insufficient.
 
 ### Learning Pathways
 
-Credentials can be stacked or combined to provide a ``learning pathway`` for the learner. For instance, credentials in database, storage and compute can be stacked together to provide a learning pathway for a Cloud Administrator role. Issuers will provide recommended learning pathways to stack credentials that they create and issue. Holders can also stack credentials that they have earned to create their own learning pathways. The holders are free to design their own custom leaning pathways or use those recommended by issuers.
+Credentials can be stacked or combined to provide a ``learning pathway`` for the learner. For instance, credentials in database, storage and compute can be stacked together to provide a learning pathway for a Cloud Administrator role. Issuers will provide recommended learning pathways to stack credentials that they create and issue. Holders can also stack credentials that they have earned to create their own learning pathways. The holders are free to design their own custom learning pathways or use those recommended by issuers.
 
 ### Multi-source
 
@@ -114,7 +114,7 @@ The RCL Verifiable Credential for Workforce Development will be a cloud-based pl
 
 ### Issuer Details
 
-An issuer will be able to display their organization's details such as name, logo, contacts, address, website, etc. on the platform. The issuer will also be able to upload their verification details.
+An issuer will be able to display their organization's details such as name, logo, contact information, address, website, etc. on the platform. The issuer will also be able to upload their verification details.
 
 ### Credentials
 
@@ -152,9 +152,9 @@ Holders will be able to share their credentials as collections with one or more 
 
 The following reference software applications will form the technology ecosystem that supports the platform:
 
-- RCL VC Issuer - A windows based application available free of charge in the [Windows Store](https://apps.microsoft.com/detail/9mw1q2kptsb2?hl=en-US&gl=TT) that allows an issuer to create and issuer verifiable credentials.
+- RCL VC Issuer - A windows based application available free of charge in the [Windows Store](https://apps.microsoft.com/detail/9mw1q2kptsb2?hl=en-US&gl=TT) that allows an issuer to create and issue verifiable credentials.
 
-- RCL VC Trust Registry - An [Online Registry](https://trustregistry.vc.rclapp.com/) available for issuers to obtain obtain a validation that confirms they are who they claim to be.
+- RCL VC Trust Registry - An [Online Registry](https://trustregistry.vc.rclapp.com/) available for issuers to obtain validation that confirms they are who they claim to be.
 
 - RCL VC Verifier - A mobile application available free of charge in the [Google Play](https://play.google.com/store/apps/details?id=com.rclapp.vcverifier&hl=en) store that allows a verifier to validate a credential by scanning the QR code contained in the credential.
 
